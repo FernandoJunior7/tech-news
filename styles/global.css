@@ -49,15 +49,27 @@ body {
   background-color: var(--bg-color);
 }
 
+.container {
+  max-width: 1280px;
+  padding: 0 2rem;
+}
+
+.divider {
+  border: 1px solid var(--stroke-color);
+}
+
 .span {
   line-height: var(--lh-md);
+  font-weight: var(--fw-span);
+  color: var(--text-secondary);
 }
 
 .heading {
   font-weight: var(--fw-heading);
 }
 
-h3, h2 {
+h3,
+h2 {
   line-height: var(--lh-sm);
 }
 
@@ -66,9 +78,23 @@ h1 {
   line-height: var(--lh-xsm);
 }
 
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.svg {
+  height: 20px;
+	width: 20px;
+	background-color: var(--text-primary);
+}
+
 a {
   text-decoration: none;
   color: inherit;
+
+  cursor: pointer;
 }
 
 ul[role='list'] {
