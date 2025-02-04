@@ -1,0 +1,55 @@
+.container {
+  max-width: 1280px;
+  padding: 0 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.mw-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mh-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mh-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.divider {
+  border: 1px solid var(--stroke-color);
+}
+
+.span {
+  line-height: var(--lh-md);
+  font-weight: var(--fw-span);
+  color: var(--text-secondary);
+}
+
+.heading {
+  font-weight: var(--fw-heading);
+}
+
+.svg {
+  height: 20px;
+  width: 20px;
+  background-color: var(--text-primary);
+}

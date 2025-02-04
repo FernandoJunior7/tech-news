@@ -1,11 +1,4 @@
 #topbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin: 0 auto;
-
   & #logo {
     font-size: var(--fs-xlg);
     font-weight: var(--fw-heading);
@@ -15,9 +8,6 @@
   }
 
   & .icon {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
     color: var(--text-primary);
     font-weight: 700;
   }
@@ -42,10 +32,6 @@
 }
 
 #tagbar {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem auto;
-
   & a:hover {
     color: var(--brand-color-400);
   }
