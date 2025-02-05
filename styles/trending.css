@@ -1,0 +1,41 @@
+#featured {
+  margin-top: 2.5rem;
+
+  & img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    border-radius: 0.25rem;
+
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        rgba(2, 6, 23, 0) 0%,
+        #020617 100%
+      );
+    }
+
+    & figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 0 0.75rem 0.75rem;
+
+      & span {
+        margin-bottom: 0.5rem;
+      }
+
+      & figcaption:has(h1) {
+        padding: 0 1.5rem 1.5rem;
+      }
+    }
+  }
+}

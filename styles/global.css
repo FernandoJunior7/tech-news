@@ -39,7 +39,7 @@
 
 html {
   font-family: var(--ff-sans);
-  font-size: var(--fs-base);
+  font-size: var(--fs-lg);
   line-height: var(--lh-base);
   font-weight: var(--fw-base);
   color: var(--text-primary);
@@ -51,12 +51,15 @@ body {
 
 h3,
 h2 {
+  font-size: var(--fs-base);
   line-height: var(--lh-sm);
+  font-weight: var(--fw-heading);
 }
 
 h1 {
   font-size: var(--fs-xlg);
   line-height: var(--lh-xsm);
+  font-weight: var(--fw-heading);
 }
 
 a {
